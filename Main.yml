@@ -1,6 +1,6 @@
 services:
     openbullet2:
-        image: 'openbullet/openbullet2:latest'
+        image: 'openbullet/openbullet2:0.2.4'
         container_name: openbullet2
         restart: unless-stopped
         volumes:
